@@ -1,0 +1,99 @@
+
+body {
+    margin: 0px;
+    
+   
+}
+      
+.Alfa{
+    font-family: 'Alfa Slab One', cursive;
+    color: rgb(233, 79, 8);
+    font-size: 40px;
+    margin: 0px;
+    
+}
+
+.conteiner{ 
+    border-left: 50px solid rgb(190, 47, 47);
+    border-right: 50px solid rgb(29, 29, 150);
+    background-image: url(../images/highway.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 0px;
+    min-height: 100vh;
+    width: 30vw;
+    max-width: 960px;
+    min-width: 460px;
+    padding: 10px;
+    padding-bottom: 0px;
+    text-align: center;
+    line-height: 45px ;
+    
+
+}
+
+.Carter {
+    font-family: 'Carter One', cursive;
+    color: white;
+    font-size: 25px;
+    line-height: 1;
+    margin: 30px;
+
+}
+
+.Cairo {
+    font-family: 'Cairo', sans-serif;
+    color: white;
+    font-size: 25px;
+    line-height: 1;
+
+}
+
+.oswald {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.mali {
+    font-family: 'Mali', cursive;
+    font-size: 25px;
+    color: rgb(235, 84, 25);
+    text-shadow: 0px 0px 5px orange ;
+    line-height: 1;
+}
+
+.cookie {
+    font-family: 'Cookie', cursive;
+    color: white;
+    font-size: 40px;
+    margin: 4px;
+}
+
+.caveat {
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    color: rgb(5, 5, 5);
+    background: white;
+    border-radius: 5px;
+    margin: 0px;
+    transform: rotate(-5deg);
+    
+    
+}
+
+.dm {
+    font-family: 'DM Mono', monospace;
+    color: white;
+    text-align: right;
+    margin: 30px;
+    margin-right: 0px;
+    
+    
+
+}
+
+.colorText {
+    color: red;
+}
+
+

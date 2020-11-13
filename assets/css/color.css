@@ -1,0 +1,80 @@
+h1{
+    color: green;
+}
+
+div span:first-of-type{
+    color:red;
+}
+
+div span:nth-last-child(3){
+    background-color: yellow;
+}
+
+.special{
+    color: orange;
+
+}
+
+div span:last-child{
+    color: rgb(49, 214, 49);
+}
+
+a[href="http://google.com"]{
+    color: green;
+}
+
+a[title]{
+    color: red;
+}
+
+b{
+    color: rgb(144, 72, 196);
+}
+
+p span:first-of-type{
+    color: lightblue;
+}
+
+p span:nth-last-child(2){
+    color: rgb(28, 173, 28);
+}
+
+p span:last-child{
+    color: black;
+}
+
+ul li:nth-of-type(odd){
+    color: red;
+}
+
+ul li:last-child{
+    color: purple;
+}
+ul li:nth-of-type(even){
+    background-color: yellow;
+}
+
+div + div{
+    color: pink;
+}
+
+ol li:nth-of-type(odd){
+    color: blue;
+}
+
+ol li:nth-of-type(even){
+    color: green;
+}
+
+ol li:last-child{
+    color: orange;
+}
+
+ol li:nth-child(4){
+    background-color:rgb(190, 188, 188) ;
+}
+
+
+
+
+
