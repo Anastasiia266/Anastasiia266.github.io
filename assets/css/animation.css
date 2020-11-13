@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+main{
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column ;
+
+}
+
+img{
+    width: 70%;
+    
+    
+}
+
+
+
+.component{
+    border: 2px solid rgb(184, 175, 175); 
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+   
+}
+
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    width: 50%;
+    margin: 10px;
+    
+    
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:20%; 
+    
+}
+
+.cart{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 2px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.buy{
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    border: none;
+    transition: 0.5s;
+    opacity: 0;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.price{
+    color:orange;
+    font-size: 20px;
+}
+.priceBetween{
+    font-size: 10px;
+
+}
+
+.offer{
+    font-size: 15px;
+}
+
+.photo{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+span:last-child > i{ 
+    color: red;
+    margin-left: 50px;
+    
+}
+
+span:last-child{
+    opacity: 0;
+    transition: 0.5s;
+}
+
+img{
+    transition: 0.5s;
+
+}
+
+.component:hover .buy{
+    opacity: 1;
+}
+
+.component:hover img{
+    transform: scale(1.5);
+}
+
+.component:hover span:last-child{
+    opacity: 1;
+}
+
+
+
+
+ 
+    
+
+
+
+
+
+
+
+
+
+
