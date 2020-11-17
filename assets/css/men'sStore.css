@@ -1,0 +1,62 @@
+.categories > span{
+    margin-right: 30px;
+    
+   
+}
+
+img{
+    width: 100%;
+}
+
+.handbag{
+    background-image: url(../images/handbag.jpg);
+    background-position: center;
+}
+
+.watch{
+    background-image: url(../images/watch.jpg);
+    background-position: center;
+}
+
+.shoes{
+    background-image: url(../images/shoes.jpg);
+    background-position: center;
+}
+
+
+.first-grid-container{
+    display: grid;
+    grid-template-areas: 
+    
+        "group group group"
+        "handbag watch shoes";
+        grid-gap: 20px;
+
+
+}
+
+.cells{
+    display: grid;
+    grid-template-areas:
+        "jeans        t-shirt       sneakers    hat"        
+        "green-jacket blue-jacket   belt        pants"
+    ;
+    grid-gap:15px
+}
+
+footer{
+    display: grid;
+    grid-template-areas:
+    "information customer extras account"
+    
+    ;
+
+}
+
+ul{
+list-style-type: none;
+}
+
+.card-img-top{
+    height: 65%;
+}
