@@ -35,6 +35,10 @@ img{
 
 }
 
+.card{
+    min-height: 600px;
+}
+
 .cells{
     display: grid;
     grid-template-areas:
@@ -58,5 +62,84 @@ list-style-type: none;
 }
 
 .card-img-top{
-    height: 65%;
+    height: 50%;
+    object-fit: cover;
+    min-height: 500px;
+    
 }
+
+@media(max-width:992px){
+    .cells{
+
+        grid-template-areas: 
+            "jeans      t-shirt         sneakers "
+            "hat        green-jacket    blue-jacket"
+            "belt       pants             .";
+
+        grid-gap:10px;
+        
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width:768px){
+    .cells{
+        grid-gap:5px;
+        grid-template-areas: 
+            "jeans        t-shirt"
+            "sneakers    hat"
+            "green-jacket blue-jacket  "
+            " belt        pants"
+        ;
+
+        
+        
+    }
+
+    p{
+        font-size: 12px;
+    } 
+}
+
+   
+
+@media (max-width:576px){
+    .cells{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+
+    .categories > span{
+        margin-right: 2px;
+        font-size: 12px;
+
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+    }
+
+    h4{
+        font-size: 14px;
+    }
+    .first-grid-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
