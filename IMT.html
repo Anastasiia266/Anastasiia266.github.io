@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <script src="./assets/js/IMT.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="text-center">
+        <h1>Индекс массы тела</h1>
+
+        <div class="height mt-3">   
+            <label for="userHeight">Введите ваш рост(м):</label>
+
+            <input  type="text"
+            id="userHeight"
+            min="0"
+            max="500"
+            value=""
+            >
+        </div> 
+
+        <div class="weight mt-3">
+            <label for="userWeight">Ведите ваш вес(кг):</label>
+
+            <input class="ml-3" type="text"  
+            id="userWeight"
+            min="20"
+            max="1000"
+            value=""
+            >
+        </div>
+
+        <button onclick="calc()" type="button" class="btn btn-dark w-25 mt-3">Рассчитать</button>
+
+        <h2>Ваш индекс: <output id="resultIndex">-</output></h2>
+
+        <h3>Он означает: <output id="resultPlace">-</output></h3>
+
+    </div>
+</div>
+</body>
+</html>
