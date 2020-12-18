@@ -6,7 +6,7 @@
 
 
     let up = 0;
-    let down = 0;
+    
 
     for(let i =0; i < winterDays.length - 1; i++){
         if(winterDays[i + 1] < 0 && winterDays[i] >= 0){
