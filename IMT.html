@@ -12,9 +12,9 @@
 <div class="container d-flex justify-content-center mt-5">
 
     <div>
-        <h1>Индекс массы тела</h1>
+        <h1 class="text-center">Индекс массы тела</h1>
 
-        <div class="height mt-3">   
+        <div class="height text-center mt-3">   
             <label for="userHeight">Введите ваш рост(м):</label>
 
             <input  type="text"
@@ -25,7 +25,7 @@
             >
         </div> 
 
-        <div class="weight mt-3">
+        <div class="weight text-center mt-3">
             <label for="userWeight">Ведите ваш вес(кг):</label>
 
             <input class="ml-3" type="text"  
@@ -36,11 +36,11 @@
             >
         </div>
 
-        <button onclick="calc()" type="button" class="btn btn-dark w-100 mt-3">Рассчитать</button>
+        <button onclick="calc()" type="button" class="btn btn-dark w-100 my-4">Рассчитать</button>
 
         <h2>Ваш индекс: <output id="resultIndex">-</output></h2>
 
-        <h3>Он означает: <output id="resultPlace">-</output></h3>
+        <h5>Он означает: <output id="resultPlace">-</output></h3>
 
     </div>
 </div>
