@@ -3,13 +3,17 @@ function calc(){
         let h = +userHeight.value;
         let m = +userWeight.value;
 
+        let newH = +userHeight.value.replace(',' , '.');
+        
         if(+userHeight.value > 3){
-            h = userHeight.value / 100;
+            newH = userHeight.value / 100;
         }else{
             
         }
 
-        let index = m / (h ** 2);
+        
+
+        let index = m / (newH ** 2);
 
         
 
