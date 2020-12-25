@@ -11,7 +11,7 @@ function number(){
 
     attempt.innerHTML = `${attempts} / 10`;
 
-        if(attempts > 10){
+        if(attempts >= 10){
             return;
         }
      
