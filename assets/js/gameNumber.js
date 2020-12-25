@@ -27,7 +27,6 @@ function number(){
             guessNumber.innerHTML = `Вариант: ${guess}`;
             helpPlace.innerHTML = 'меньше загаданного';
         }
-
     
     if(attempts++ < 10){
     
@@ -43,3 +42,4 @@ function number(){
     
 
 }
+
